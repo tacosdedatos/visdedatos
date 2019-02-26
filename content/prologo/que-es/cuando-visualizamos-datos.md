@@ -1,0 +1,1 @@
+# ¿Cuándo visualizamos datos?

@@ -1,0 +1,94 @@
+# This file contains the order and numbering for all sections in the book.
+#
+# Each entry has the following schema:
+#
+# - title: mytitle   # Title of chapter or section
+#   url: /myurl  # URL of section relative to the /content/ folder.
+#   sections:  # Contains a list of more entries that make up the chapter's sections
+#   not_numbered: true  # if the section shouldn't have a number in the sidebar
+#     (e.g. Introduction or appendices)
+#   expand_sections: true  # if you'd like the sections of this chapter to always
+#     be expanded in the sidebar.
+#   external: true  # Whether the URL is an external link or points to content in the book
+#
+# Below are some special values that trigger specific behavior:
+# - search: true  # Will provide a link to a search page
+# - divider: true  # Will insert a divider in the sidebar
+# - header: My Header  # Will insert a header with no link in the sidebar
+
+
+- title: Visualización de Datos con Altair
+  url: /intro
+  not_numbered: true
+- title: Busqueda
+  search: true
+
+- title: ¿Qué es Altair?
+  url: /que-es-altair
+  not_numbered: true
+
+- divider: true
+- header: Prólogo
+
+- title: ¿Qué es "visualizar" datos?
+  url: /prologo/que-es/que-es-visualizar-datos
+  sections:
+  - title: ¿Qué es una "buena" visualización de datos?
+    url: /prologo/que-es/que-es-una-buena-visualizacion
+  - title: ¿Quién se beneficia de ser una gran visualizadora de datos?
+    url: /prologo/que-es/quien-gana-de-ser-un-master
+  - title: ¿Dónde visualizamos datos?
+    url: /prologo/que-es/donde-visualizamos-datos
+  - title: ¿Cuándo visualizamos datos?
+    url: /prologo/que-es/cuando-visualizamos-datos
+  - title: ¿Por qué visualizamos datos?
+    url: /prologo/que-es/por-que-visualizamos-datos
+
+
+- divider: true
+- header: Módulo 0 
+
+- title: ¿Qué es la "Grámatica de Gráficos"?
+  url: /section-01/gramatica-de-graficos
+  sections:
+  - title: Ventajas
+    url: /section-01/chapters/01-ventajas
+  - title: Desventajas
+    url: /section-01/chapters/02-desventajas
+  - title: Los Clásicos
+    url: /section-01/chapters/03-los-clasicos
+
+
+- title: Anatomía de un Gráfico
+  url: /section-02/anatomia-de-un-grafico
+  sections:
+  - title: Gráfico de Barras
+    url: /section-02/1/grafico_de_barras
+  - title: Gráfico de Líneas
+    url: /section-02/2/grafico_de_lineas
+  - title: Gráfico de Dispersíon
+    url: /section-02/3/grafico_de_dispersion
+  - title: Gráfico de Area
+    url: /section-02/4/grafico_de_area
+  - title: Mapa
+    url: /section-02/5/mapa
+  - title: Conclusión
+    url: /section-02/6/conclusion
+
+
+- divider: true
+- header: Módulo 1 
+
+- title: Creación de Gráficos
+  url: /section-03/creacion-de-graficos
+  sections:
+  - title: Equis y ¿Qué?
+    url: /section-03/1/equis-y-que
+  - title: Propiedades de un Gráfico
+    url: /section-03/2/propiedades-de-un-grafico
+
+
+- divider: true
+- title: Glosario
+  url: /glosario/glosario
+  not_numbered: true
