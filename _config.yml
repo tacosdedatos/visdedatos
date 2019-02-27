@@ -90,6 +90,9 @@ custom_static_url         : "/assets/custom" # Path to user's custom CSS/JS file
 #######################################################################################
 # Jekyll build settings (only modify if you know what you're doing)
 
+#trying something
+source: ./_build
+
 # Site settings
 defaults:
   - scope:
