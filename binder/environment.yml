@@ -7,5 +7,6 @@ dependencies:
   - pandas==0.24.*
   - altair==2.4.*
   - vega_datasets
+  - vega
   - pip:
     - nbgitpuller
