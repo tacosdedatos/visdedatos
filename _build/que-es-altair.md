@@ -65,7 +65,7 @@ alt.Chart(iris).mark_point().encode(
 
 
 {:.output .output_png}
-![png](/home/chekos_data/visdedatos/_build/que-es-altair_4_0.png)
+![png](que-es-altair_4_0.png)
 
 
 
