@@ -287,6 +287,7 @@ GEM
       ethon (>= 0.9.0)
     tzinfo (1.2.5)
       thread_safe (~> 0.1)
+    unicode (0.4.4.4)
     unicode-display_width (1.4.1)
 
 PLATFORMS
@@ -301,6 +302,7 @@ DEPENDENCIES
   jekyll-redirect-from
   jekyll-scholar
   tzinfo-data
+  unicode (~> 0.4.4)
 
 BUNDLED WITH
-   1.17.0
+   2.0.1
