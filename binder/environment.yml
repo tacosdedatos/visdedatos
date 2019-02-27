@@ -3,7 +3,7 @@ channels:
   - conda-forge
 dependencies:
   - python==3.7.*
-  - geopandas==0.4.0
+#  - geopandas==0.4.0
   - pandas==0.24.*
   - altair==2.4.*
   - vega_datasets
